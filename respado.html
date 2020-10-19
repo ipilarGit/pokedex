@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Prueba - Jugando con una Pokedex </title>
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+     <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+     <div class="hero-imagen img-fluid">
+
+          <div class="site-wrapper ">
+               <div class="site-wrapper-inner">
+                    <div class="cover-container">
+                         <div class="masthead clearfix">
+
+                              <div class="inner cover">
+                                   <h1 class="masthead-brand font-weight-bold p-2">Pokemon</h1>
+                                   <nav class="nav nav-masthead p-2">
+                                        <a class="nav-link active" href="#">Suscribete</a>
+                                        <a class="nav-link" href="#">Haz una donación</a>
+                                        <a class="nav-link" href="#">Contacto</a>
+                                   </nav>
+                              </div>
+
+
+                              <div class="hero-contenido input-group w-100">
+
+                                   <div class="inner p-2">
+                                        <h2 class="cover-heading text-center w-100">Busca a tu Pokemon favorito y
+                                             descubre
+                                             sus puntos
+                                             base.
+                                        </h2>
+                                   </div>
+                                   <div class="container">
+                                        <!-- <div>
+                                             <span class="input-group-text font-weight-bold"
+                                                  id="basic-addon1">Pokemon</span>
+                                        </div> -->
+                                        <div class=" p-1">
+                                             <input id="nombre-pokemon" type="text" class="form-control"
+                                                  placeholder="Ingresa nombre de tu Pokemon favorito">
+
+                                        </div>
+                                        <button type="button" class="btn btn-primary  btn-dark">Consultar</button>
+                                        <div id="pokemon"></div>
+                                   </div>
+                              </div>
+
+                              <div id="chartContainer" class="container p-3 w-auto" style="height: 300px; width: 100%;">
+                              </div>
+
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+
+
+     <!--      Estos scripts  se usan para hacer uso de manera remota -->
+     <script src="https://code.jquery.com/jquery-3.5.1.js"
+          integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+          crossorigin="anonymous"></script>
+
+     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+     <!--Mi script-->
+     <script src="assets/js/index.js"></script>
+</body>
+
+</html>
